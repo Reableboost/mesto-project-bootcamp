@@ -1,0 +1,6 @@
+.profile-person__avatar {
+  margin: 0 0 0 0;
+  width: 120px;
+  height: 120px;
+  justify-self: flex-start;
+}

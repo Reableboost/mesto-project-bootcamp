@@ -1,0 +1,14 @@
+.profile-person {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .profile-person {
+    gap: 0;
+  }
+}

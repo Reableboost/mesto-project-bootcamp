@@ -1,0 +1,13 @@
+.header {
+  margin: 45px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0 auto 42px auto;
+    width: 100%;
+  }
+}

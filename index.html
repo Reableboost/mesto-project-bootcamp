@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Место</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип">
+      <div class="header__line"></div>
+    </header>
+    <main class="main">
+      <section class="profile">
+        <div class="profile-person">
+          <img class="profile-person__avatar" src="./images/Avatar.png" alt="Аватар">
+          <div class="profile-person__info">
+            <h1 class="profile-person__title">Жак-Ив Кусто</h1>
+            <button class="profile-person__edit-button"></button>
+            <p class="profile-person__subtitle">Исследователь океана</p>
+          </div>
+        </div>
+        <button class="profile__add-button"></button>
+      </section>
+      <section class="elements">
+        <ul>
+          <li class="element">
+            <img class="element__image" src="./images/church.jpg" alt="Горы и церковь">
+            <div class="element__line">
+              <h3 class="element__line-title">Карачаевск</h3>
+              <button class="element__line-heart element__line-heart_active"></button>
+            </div>
+          </li>
+          <li class="element">
+              <img class="element__image" src="./images/sunrise.jpg" alt="Закат">
+              <div class="element__line">
+                <h3 class="element__line-title">Гора Эльбрус</h3>
+                <button class="element__line-heart"></button>
+              </div>
+          </li>
+          <li class="element">
+            <img class="element__image" src="./images/mountain.jpg" alt="Горы">
+            <div class="element__line">
+              <h3 class="element__line-title">Домбай</h3>
+              <button class="element__line-heart"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img class="element__image" src="./images/Kamchatka.jpg" alt="Закат">
+            <div class="element__line">
+              <h3 class="element__line-title">Камчатка</h3>
+              <button class="element__line-heart"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img class="element__image" src="./images/Moscow.jpg" alt="Горы">
+            <div class="element__line">
+              <h3 class="element__line-title">Москва</h3>
+              <button class="element__line-heart"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img class="element__image" src="./images/Sochi.jpg" alt="Горы и церковь">
+            <div class="element__line">
+              <h3 class="element__line-title">Сочи</h3>
+              <button class="element__line-heart"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2023. Сергей Анищенко</p>
+    </footer>
+  </div>
+  <section class="popup popup_opened">
+    <form class="popup-container">
+      <div class="popup-container__close-icon"></div>
+      <h2 class="popup-container__title">Редактировать профиль</h2>
+      <input class="popup-container__name" placeholder="Жак-Ив Кусто" type="text">
+      <input class="popup-container__description" placeholder="Исследователь океана" type="text">
+      <button class="popup__button" type="submit">Сохранить</button>
+    </form>
+  </section>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.profile-person__edit-button {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  background: url(../../../../images/Edit-Button.svg);
+  background-size: contain;
+  transition: opacity 0.5s linear;
+}
+
+@media screen and (max-width: 320px) {
+  .profile-person__edit-button {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+@media (any-hover: hover) {
+  .profile-person__edit-button:hover {
+    opacity: 60%;
+    transition: opacity 0.2s linear;
+    }
+  }

@@ -1,0 +1,17 @@
+.element__line-heart {
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+  border: 0;
+  background: url(../../../../images/heart.svg);
+  transition: opacity 0.5s linear;
+}
+
+@media (any-hover: hover) {
+  .element__line-heart:hover {
+    opacity: 50%;
+    transition: opacity 0.2s linear;
+    }
+  }
