@@ -10,7 +10,7 @@
   border: none;
   font-weight: 400;
   font-size: 18px;
-  line-height: auto;
+  line-height: normal;
   cursor: pointer;
   padding: 0;
   transition: background-color 0.5s linear;

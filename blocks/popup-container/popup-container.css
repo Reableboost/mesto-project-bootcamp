@@ -19,7 +19,7 @@
   color: black;
   font-weight: 400;
   font-size: 14px;
-  line-height: auto;
+  line-height: normal;
 }
 
 @media screen and (max-width: 1279px) {

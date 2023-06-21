@@ -16,6 +16,6 @@
   .profile-person__title {
     margin: 0 10px 14px 0;
     font-size: 27px;
-    line-height: auto;
+    line-height: normal;
   }
 }
