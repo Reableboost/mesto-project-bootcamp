@@ -1,5 +1,6 @@
 .profile-person {
   margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -9,6 +10,7 @@
 
 @media screen and (max-width: 320px) {
   .profile-person {
-    gap: 0;
+    flex-direction: column;
+    gap: 25px;
   }
 }

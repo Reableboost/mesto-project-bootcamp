@@ -1,0 +1,14 @@
+.profile-person__info-title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .profile-person__info-title {
+    gap: 10px;
+  }
+}
