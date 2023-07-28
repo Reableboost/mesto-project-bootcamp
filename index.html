@@ -16,71 +16,60 @@
       <section class="profile">
         <div class="profile-person">
           <img class="profile-person__avatar" src="./images/Avatar.png" alt="Аватар">
-          <div class="profile-person__info">
-            <h1 class="profile-person__title">Жак-Ив Кусто</h1>
-            <button class="profile-person__edit-button"></button>
+          <div class="profile-person__string">
+            <div class="profile-person__info">
+              <h1 class="profile-person__title">Жак-Ив Кусто</h1>
+              <button class="profile-person__edit-button"></button>
+            </div>
             <p class="profile-person__subtitle">Исследователь океана</p>
           </div>
         </div>
         <button class="profile__add-button"></button>
       </section>
       <ul class="elements">
-        <li class="element">
-          <img class="element__image" src="./images/church.jpg" alt="Горы и церковь">
-          <div class="element__line">
-            <h3 class="element__line-title">Карачаевск</h3>
-            <button class="element__line-heart element__line-heart_active"></button>
-          </div>
-        </li>
-        <li class="element">
-            <img class="element__image" src="./images/sunrise.jpg" alt="Закат">
-            <div class="element__line">
-              <h3 class="element__line-title">Гора Эльбрус</h3>
-              <button class="element__line-heart"></button>
-            </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/mountain.jpg" alt="Горы">
-          <div class="element__line">
-            <h3 class="element__line-title">Домбай</h3>
-            <button class="element__line-heart"></button>
-          </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/Kamchatka.jpg" alt="Закат">
-          <div class="element__line">
-            <h3 class="element__line-title">Камчатка</h3>
-            <button class="element__line-heart"></button>
-          </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/Moscow.jpg" alt="Горы">
-          <div class="element__line">
-            <h3 class="element__line-title">Москва</h3>
-            <button class="element__line-heart"></button>
-          </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/Sochi.jpg" alt="Горы и церковь">
-          <div class="element__line">
-            <h3 class="element__line-title">Сочи</h3>
-            <button class="element__line-heart"></button>
-          </div>
-        </li>
+
+
       </ul>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2023. Сергей Анищенко</p>
     </footer>
   </div>
-  <section class="popup popup_opened">
-    <form class="popup-container">
-      <div class="popup-container__close-icon"></div>
-      <h2 class="popup-container__title">Редактировать профиль</h2>
-      <input class="popup-container__name" placeholder="Жак-Ив Кусто" type="text">
-      <input class="popup-container__description" placeholder="Исследователь океана" type="text">
-      <button class="popup__button" type="submit">Сохранить</button>
+  <section class="popup popup_opened popup_profile-edit">
+    <form class="popup-container popup-container_profile-edit">
+      <div class="popup-container__close-icon popup-container__close-icon_profile-edit"></div>
+      <h2 class="popup-container__title popup-container__title_profile-edit">Редактировать профиль</h2>
+      <input class="popup-container__name popup-container__name_profile-edit" placeholder="Имя" type="text">
+      <input class="popup-container__description popup-container__description_profile-edit" placeholder="Профессия" type="text">
+      <button class="popup__button popup__button_profile-edit" type="submit">Сохранить</button>
     </form>
   </section>
+  <section class="popup popup_opened popup_card-add">
+    <form class="popup-container popup-container_card-add">
+      <div class="popup-container__close-icon popup-container__close-icon_card-add"></div>
+      <h2 class="popup-container__title popup-container__title_card-add">Новое место</h2>
+      <input class="popup-container__name popup-container__name_card-add" placeholder="Название" type="text">
+      <input class="popup-container__description popup-container__src" placeholder="Ссылка на картинку" type="text">
+      <button class="popup__button popup__button_card-add" type="submit">Сохранить</button>
+    </form>
+  </section>
+
+  <template class="elements-template">
+    <li class="element">
+      <button class="element__delete-button"></button>
+      <img class="element__image" alt="Картинка">
+      <div class="element__line">
+        <h3 class="element__line-title"> </h3>
+        <button class="element__line-heart"></button>
+      </div>
+      <div class="element__popup element__popup_opened">
+        <div class="element__popup-close">
+          <img class="element__popup-img" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg" alt="Картинка">
+        </div>
+      </div>
+    </li>
+  </template>
+
+  <script src="./js/index.js" defer></script>
 </body>
 </html>

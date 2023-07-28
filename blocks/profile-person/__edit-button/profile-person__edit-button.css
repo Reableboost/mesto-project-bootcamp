@@ -6,6 +6,7 @@
   cursor: pointer;
   padding: 0;
   background: url(../../../images/Edit-Button.svg);
+  background-repeat: no-repeat;
   background-size: contain;
   transition: opacity 0.5s linear;
 }

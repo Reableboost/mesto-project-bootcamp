@@ -1,20 +1,23 @@
-.element__line-heart {
+.element__delete-button {
   margin: 0;
   padding: 0;
-  width: 22px;
+  width: 18px;
   height: 19px;
+  flex-shrink: 0;
   cursor: pointer;
-  position: absolute;
-  bottom: 25px;
-  right: 20px;
   border: 0;
-  background: url(../../../../images/heart.svg);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-size: cover;
+  background: url(../../../images/Trash.svg);
   transition: opacity 0.5s linear;
 }
 
 @media (any-hover: hover) {
-  .element__line-heart:hover {
+  .element__delete-button:hover {
     opacity: 50%;
     transition: opacity 0.2s linear;
     }
   }
+}

@@ -3,10 +3,9 @@
   padding: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: baseline;
-  max-width: 336px;
-  max-height: 73px;
+  max-width: 500px;
+  gap: 18px;
 }
 
 @media screen and (max-width: 706px) {
@@ -17,6 +16,6 @@
 
 @media screen and (max-width: 320px) {
   .profile-person__info {
-    margin: 26px auto 36px auto;
+    margin: 0 auto 0 auto;
   }
 }
