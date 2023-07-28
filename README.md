@@ -16,6 +16,9 @@
 * Grid  
 * Flex  
 * BEM
+* JS
+* Figma
+* GIT
 
 ## Ссылка на проект.
 https://reableboost.github.io/russian-travel-bootcamp/
