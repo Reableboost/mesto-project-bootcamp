@@ -1,0 +1,9 @@
+.popup-container__caption {
+margin: 0;
+padding: 0;
+color: #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+max-width: 75vw;
+}

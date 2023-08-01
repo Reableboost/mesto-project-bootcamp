@@ -1,8 +1,10 @@
-.element__popup-img {
+.popup-container__img {
   margin: 0;
   padding: 0;
+  font-family: 'Inter';
   max-height: 75vh;
   max-width: 75vw;
   align-items: center;
   background-color: none;
+  background: lightgray 50% / cover no-repeat;
 }

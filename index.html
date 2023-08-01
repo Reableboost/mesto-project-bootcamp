@@ -53,6 +53,15 @@
       <button class="popup__button popup__button_card-add" type="submit">Сохранить</button>
     </form>
   </section>
+  <section class="popup popup_opened popup_photo">
+    <div class="popup-container_photo">
+      <div class="popup-container__close-icon popup-container__close-icon_photo"></div>
+      <figure class="popup-container__figure">
+        <img class="popup-container__img" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg" alt="Картинка">
+        <figcaption class="popup-container__caption">Байкал</figcaption>
+      </figure>
+    </div>
+  </section>
 
   <template class="elements-template">
     <li class="element">
@@ -61,11 +70,6 @@
       <div class="element__line">
         <h3 class="element__line-title"> </h3>
         <button class="element__line-heart"></button>
-      </div>
-      <div class="element__popup element__popup_opened">
-        <div class="element__popup-close">
-          <img class="element__popup-img" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg" alt="Картинка">
-        </div>
       </div>
     </li>
   </template>
