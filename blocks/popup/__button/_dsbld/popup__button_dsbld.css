@@ -1,0 +1,40 @@
+.popup__button_dsbld {
+    margin: auto auto 37px auto;
+    max-width: 358px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+    background: none;
+    color: rgba(0,0,0,0.2);
+    border-style:solid;
+    border-width: 1px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 1279px) {
+    .popup__button_dsbld {
+      max-width: calc(238px + 120 * (100vw - 320px) / 959);
+      max-height: calc(46px + 4 * (100vw - 320px) / 959);
+      font-size: calc(14px + 4 * (100vw - 320px) / 959);
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+    .popup__button_dsbld {
+      max-width: 238px;
+      max-height: 46px;
+      font-size: 14px;
+      margin-bottom: 25px;
+  }
+  }
+
+  @media (any-hover: hover) {
+    .popup__button_dsbld:hover {
+      background: none;
+      transition: none;
+      }
+    }

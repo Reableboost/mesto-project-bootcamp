@@ -1,0 +1,4 @@
+.popup__input_type_error {
+  border-bottom: solid 1px rgb(255, 0, 0);
+  transition: visibility 0.1s, opacity 0.1s ease-in;
+}

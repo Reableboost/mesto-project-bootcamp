@@ -1,0 +1,11 @@
+{
+  "name": "mesto_project",
+  "version": "0.0.1",
+  "description": "----------- ## Описание проекта. Сайт, который позволяет взглянуть на путешествия по России свежим взглядом,   вдохновляет и дает иструменты для планирования.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergei Anishchenko",
+  "license": "ISC"
+}
