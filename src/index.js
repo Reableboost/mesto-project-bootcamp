@@ -1,4 +1,4 @@
-
+export const popup = document.querySelectorAll('.popup');
 export const popupCardAdd = document.querySelector('.popup_card-add');
 export const elements = document.querySelector('.elements');
 export const profileTitle = document.querySelector('.profile-person__title');
@@ -20,6 +20,7 @@ export const popupContainerName = popupContainer.querySelector('.popup-container
 export const popupContainerDesc = popupContainer.querySelector('.popup-container__description_profile-edit');
 export const popupContainerNameCardAdd = popupCardAdd.querySelector('.popup-container__name_card-add');
 export const popupContainerPictureSrc =  popupCardAdd.querySelector('.popup-container__src');
+import './pages/index.css';
 
 const config = {
   formSelector: '.popup-container',
@@ -56,3 +57,11 @@ profileEditButton.addEventListener('click', () => {
 });
 
 enableValidation(config);
+
+[...popup].forEach((popupElement) => {
+  popupElement.addEventListener('keydown', function(evt) {
+      if (evt.key === 'Escape') {
+        closePopup(evt)
+    }
+  })
+})
